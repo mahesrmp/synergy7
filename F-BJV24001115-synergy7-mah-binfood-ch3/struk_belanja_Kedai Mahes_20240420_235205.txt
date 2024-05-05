@@ -1,0 +1,4 @@
+==================== Struk Belanja ====================
+1 | Nasi Goreng | 2 | 15000
+2 | Es Teh Manis | 2 | 3000
+Total Harga:      4    36000
