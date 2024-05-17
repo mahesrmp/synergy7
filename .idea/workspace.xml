@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2083a90a-9ba4-4bda-9c6b-570941cd4919" name="Changes" comment="Challenge Chapter 2" />
+    <list default="true" id="2083a90a-9ba4-4bda-9c6b-570941cd4919" name="Changes" comment="Challenge Chapter 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/SYNRGY/Chapter 4/xx2/xx2",
+    "last_opened_file_path": "D:/SYNRGY/Challenge/F-BJV24001115-synergy7-mah-binfood-ch4",
     "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
