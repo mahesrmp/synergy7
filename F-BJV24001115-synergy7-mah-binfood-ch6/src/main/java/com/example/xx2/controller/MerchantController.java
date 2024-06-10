@@ -67,6 +67,7 @@ public class MerchantController {
 //    }
 
     @PatchMapping("/open/{id}")
+    @PreAuthorize("hasAuthority('ROLE_MERCHANT')")
     public ResponseEntity<Map<String, Object>> updateOpenMerchant(@PathVariable("id") UUID idMerchant){
         Map<String, Object> response = new HashMap<>();
         response.put("status", "success");
@@ -79,6 +80,7 @@ public class MerchantController {
     }
 
     @PatchMapping("/close/{id}")
+    @PreAuthorize("hasAuthority('ROLE_MERCHANT')")
     public ResponseEntity<Map<String, Object>> updateCloseMerchant(@PathVariable("id") UUID idMerchant){
         Map<String, Object> response = new HashMap<>();
         response.put("status", "success");
@@ -91,6 +93,7 @@ public class MerchantController {
     }
 
     @DeleteMapping("{id}")
+    @PreAuthorize("hasAuthority('ROLE_MERCHANT')")
     public ResponseEntity<HttpStatus> deleteMerchant(@PathVariable("id") UUID idMerchant) {
         try {
             merchantService.deleteMerchant(idMerchant);
@@ -101,6 +104,7 @@ public class MerchantController {
     }
 
     @GetMapping("/report")
+    @PreAuthorize("hasAuthority('ROLE_MERCHANT')")
     public List<ReportDto> getMerchantReport(
             @RequestParam LocalDate startDate,
             @RequestParam LocalDate endDate,

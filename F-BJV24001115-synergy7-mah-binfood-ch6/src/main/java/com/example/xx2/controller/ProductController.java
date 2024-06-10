@@ -82,11 +82,13 @@ public class ProductController {
     }
 
     @PutMapping("{id}")
+    @PreAuthorize("hasAuthority('ROLE_MERCHANT')")
     public Product add(@PathVariable("id") UUID idProduct, @RequestBody Product product){
         return productService.update(idProduct, product);
     }
 
     @DeleteMapping("{id}")
+    @PreAuthorize("hasAuthority('ROLE_MERCHANT')")
     public ResponseEntity<HttpStatus> deleteProduct(@PathVariable("id") UUID id) {
         try {
             productService.deleteProduct(id);
