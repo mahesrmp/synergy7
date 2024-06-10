@@ -13,6 +13,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.core.io.Resource;
 
@@ -29,26 +30,31 @@ public class OrderController {
     private InvoiceService invoiceService;
 
     @PostMapping("/create")
+    @PreAuthorize("hasAuthority('ROLE_USER')")
     public OrderResponseDto createOrder(@RequestBody OrderRequestDto orderRequestDTO) {
         return orderService.createOrder(orderRequestDTO);
     }
 
     @GetMapping("/all")
+    @PreAuthorize("hasAuthority('ROLE_USER')")
     public List<OrderResponseDto> getAllOrders() {
         return orderService.getAllOrders();
     }
 
     @GetMapping("/user/{userId}")
+    @PreAuthorize("hasAuthority('ROLE_USER')")
     public List<OrderResponseDto> getOrdersByUserId(@PathVariable UUID userId) {
         return orderService.getOrdersByUserId(userId);
     }
 
     @GetMapping("/completed")
+    @PreAuthorize("hasAuthority('ROLE_USER')")
     public List<OrderResponseDto> getCompletedOrders() {
         return orderService.getCompletedOrders();
     }
 
     @GetMapping("/report/{userId}")
+    @PreAuthorize("hasAuthority('ROLE_USER')")
     public ResponseEntity<Resource> generateInvoice(@PathVariable UUID userId) {
         try {
             byte[] pdfBytes = invoiceService.generateInvoice(userId);
