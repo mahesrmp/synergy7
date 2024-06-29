@@ -1,0 +1,4 @@
+==================== Struk Belanja ====================
+Nama Produk | Jumlah | Harga Satuan | Total Harga
+
+Total Harga: 0.0

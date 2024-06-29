@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: apigateway
+  cloud:
+    gateway:
+      routes:
+        - id: Binarfud
+          uri: http://localhost:8081
+          predicates:
+            - Path=/binarfud/**
+        - id: BinarfudConsumerKafka
+          uri: http://localhost:8082
+          predicates:
+            - Path=/branch/**
+server:
+  port: 8080
