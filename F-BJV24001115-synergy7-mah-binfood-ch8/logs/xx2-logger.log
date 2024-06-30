@@ -1,0 +1,796 @@
+2024-06-25 21:25:37,978 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 17.0.6 with PID 22352 (D:\SYNRGY\Chapter 8\F-BJV24001115-synergy7-mah-binfood-ch8\target\classes started by mahes in D:\SYNRGY\Chapter 8\F-BJV24001115-synergy7-mah-binfood-ch8)
+2024-06-25 21:25:37,984 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-25 21:25:39,692 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-25 21:25:39,849 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 143 ms. Found 6 JPA repository interfaces.
+2024-06-25 21:25:40,984 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-25 21:25:41,016 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-25 21:25:41,020 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-25 21:25:41,021 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-25 21:25:41,175 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-25 21:25:41,177 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3092 ms
+2024-06-25 21:25:41,434 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-25 21:25:41,550 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-25 21:25:41,616 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-25 21:25:42,032 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-25 21:25:42,076 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-25 21:25:42,472 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29aa4bc9
+2024-06-25 21:25:42,476 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-25 21:25:42,600 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-25 21:25:45,898 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-25 21:25:46,354 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-25 21:25:47,327 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-25 21:25:48,088 INFO c.e.x.i.FCMInitializer [main] Firebase application has been initialized
+2024-06-25 21:25:48,274 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-25 21:25:49,016 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f2d0d25, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@128fe3ab, org.springframework.security.web.context.SecurityContextHolderFilter@33d828b3, org.springframework.security.web.header.HeaderWriterFilter@5125558b, org.springframework.web.filter.CorsFilter@73502c47, org.springframework.security.web.authentication.logout.LogoutFilter@510cefb6, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@3a69c81e, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@357904d7, com.example.xx2.security.jwt.JwtAuthTokenFilter@244c0fbe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ca5720a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@407339e5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@724d4e75, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47864b2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13473685, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@750e313c, org.springframework.security.web.session.SessionManagementFilter@6092d41, org.springframework.security.web.access.ExceptionTranslationFilter@795ef208, org.springframework.security.web.access.intercept.AuthorizationFilter@1509dade]
+2024-06-25 21:25:49,647 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-25 21:25:49,686 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-25 21:25:49,712 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 12.807 seconds (process running for 13.927)
+2024-06-25 21:26:04,082 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-25 21:26:04,083 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-25 21:26:04,087 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2024-06-25 21:26:07,445 INFO c.e.x.s.FCMService [http-nio-8080-exec-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/7e9c2554-97f7-470a-8546-212498c564a9 msg {
+  "notification": {
+    "title": "Promo Binarfud Siang",
+    "body": "Dapatkan Promo Binarfud dari jam 12.00-13.00. Jangan Sampai Ketinggalan"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:26:16,280 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-25 21:26:16,284 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-25 21:26:16,290 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-25 21:36:40,306 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 17.0.6 with PID 23712 (D:\SYNRGY\Chapter 8\F-BJV24001115-synergy7-mah-binfood-ch8\target\classes started by mahes in D:\SYNRGY\Chapter 8\F-BJV24001115-synergy7-mah-binfood-ch8)
+2024-06-25 21:36:40,313 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-25 21:36:42,624 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-25 21:36:42,860 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 221 ms. Found 6 JPA repository interfaces.
+2024-06-25 21:36:44,505 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-25 21:36:44,552 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-25 21:36:44,560 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-25 21:36:44,560 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-25 21:36:44,818 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-25 21:36:44,822 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4373 ms
+2024-06-25 21:36:45,201 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-25 21:36:45,342 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-25 21:36:45,443 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-25 21:36:46,050 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-25 21:36:46,110 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-25 21:36:46,629 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ce7490a
+2024-06-25 21:36:46,633 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-25 21:36:46,777 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-25 21:36:50,370 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-25 21:36:50,675 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-25 21:36:51,767 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-25 21:36:52,684 INFO c.e.x.i.FCMInitializer [main] Firebase application has been initialized
+2024-06-25 21:36:52,947 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-25 21:36:53,862 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@750e313c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1871068d, org.springframework.security.web.context.SecurityContextHolderFilter@61a809ee, org.springframework.security.web.header.HeaderWriterFilter@71d4b83b, org.springframework.web.filter.CorsFilter@6ab123d0, org.springframework.security.web.authentication.logout.LogoutFilter@4df3b838, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@41a4135e, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@128fe3ab, com.example.xx2.security.jwt.JwtAuthTokenFilter@1188e08b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69aecbba, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@772357e9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7217e615, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b6c5fa2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6135bb54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7614beba, org.springframework.security.web.session.SessionManagementFilter@7c7478ac, org.springframework.security.web.access.ExceptionTranslationFilter@6092d41, org.springframework.security.web.access.intercept.AuthorizationFilter@2e5cd959]
+2024-06-25 21:36:54,582 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-25 21:36:54,627 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-25 21:36:54,660 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 15.786 seconds (process running for 17.556)
+2024-06-25 21:36:58,640 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/4eb43e23-5cd5-4fc1-b3ad-bbc9bb145fb7 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:36:58,751 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/d90aab76-a6ff-42be-b7af-728163deb310 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:36:58,848 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/010b2eb4-6759-4816-807a-dbf7dc177c33 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:36:59,131 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/36b4c8bc-cf8c-4a57-8108-2920d946add3 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:36:59,289 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/52f53c2b-be11-44b5-862e-bb74f8ebc8fa msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:36:59,379 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/5db0d3b3-68fe-472d-92cf-df5cdcc1222c msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:00,169 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/f86cae6f-9eb2-4864-a26b-a40af147e43f msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:00,338 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/3c84d6bf-de4f-4306-8bc1-285c828e1b0c msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:00,467 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/b8a06f18-249b-43c1-87c9-719dbdcbb41e msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:01,117 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/a641077a-07cf-4e5d-b06d-2d4631b77669 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:01,257 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/31c9f031-ec91-4c49-879e-eed919f97b7a msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:01,368 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/9e89c1c5-3dfd-4f9a-87f3-ae61e388b397 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:02,118 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/174bfa58-87d6-4c54-ac55-e7824243e5c0 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:02,227 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/a6892fbf-99bf-46bc-9687-4d6c2700e4b1 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:02,379 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/ba22299b-5752-4741-b37b-1fd09fe643c9 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:03,138 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/4a964340-3210-4259-a9da-c5fa5071b969 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:03,227 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/19d879bd-0666-4374-a324-d0f9e7e545c9 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:03,366 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/be80987d-5ef2-4bb3-b6fe-6ca76851bf9e msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:04,117 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/ac62e0ba-afa4-406c-9574-d5b1f4edec55 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:04,242 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/008eaa30-12d6-4344-9f49-fce4d4a5668c msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:04,397 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/56e53973-c135-485b-b85e-6d756b56440e msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:05,117 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/8739f7ce-56ba-4106-94ed-a44fb5aefd9d msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:05,278 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/d95c7597-1c98-4a65-bcfb-01050e0b3b8a msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:05,377 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/71375732-3aed-4fee-af78-9e96ab4d9e9a msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:06,149 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/7fb9a0b6-6b16-47d7-bc80-f39516d4c3ec msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:06,257 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/44fb74a5-622e-417f-9687-e09bcd78ebfd msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:06,357 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/023dd7ce-5f9f-4b4d-881c-1acfa62daa01 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:07,180 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/5bfc6219-7b96-43d3-83df-901149bc9f53 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:07,347 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/acfd4531-d175-4ece-aa16-b3f014b5f0f6 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:07,498 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/5f62b862-e55c-4c85-ab92-ce9da4f3e777 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:08,117 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/0665b7b4-d15f-43eb-989c-a9527f059c2d msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:08,217 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/49df842e-06ff-4671-9d0c-e5b5ac2d000d msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:08,317 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/155d656b-9b31-4cfc-b61d-86c5b882a008 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:09,148 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/569e27b0-38e8-4644-9b0c-bf26c36123cf msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:09,288 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/86b91bcd-90e7-4fb8-af68-6f0a2900626e msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:09,407 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/66b2e3d2-fc57-4dd4-9379-60af9c816cf1 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:10,108 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/7e43d941-588d-4d66-bbe2-a8d8d7cf95cf msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Es Cincau"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:10,233 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/6b114bf3-4e03-4433-b0a2-55f4dff52d70 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Nasi Lemak"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:10,328 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/35f9f663-dcc5-48e3-a944-5f0976974bd0 msg {
+  "notification": {
+    "title": "Promo Product",
+    "body": "Check out our latest promotions on Jus Jeruk"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:37:10,724 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-25 21:37:10,734 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-25 21:37:10,780 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-25 21:41:22,806 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 17.0.6 with PID 7632 (D:\SYNRGY\Chapter 8\F-BJV24001115-synergy7-mah-binfood-ch8\target\classes started by mahes in D:\SYNRGY\Chapter 8\F-BJV24001115-synergy7-mah-binfood-ch8)
+2024-06-25 21:41:22,813 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-25 21:41:25,392 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-25 21:41:25,571 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 164 ms. Found 6 JPA repository interfaces.
+2024-06-25 21:41:27,157 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-25 21:41:27,175 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-25 21:41:27,181 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-25 21:41:27,181 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-25 21:41:27,340 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-25 21:41:27,342 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4383 ms
+2024-06-25 21:41:27,678 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-25 21:41:27,809 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-25 21:41:27,882 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-25 21:41:28,495 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-25 21:41:28,550 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-25 21:41:28,946 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29aa4bc9
+2024-06-25 21:41:28,951 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-25 21:41:29,057 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-25 21:41:31,313 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-25 21:41:31,641 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-25 21:41:32,653 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-25 21:41:33,650 INFO c.e.x.i.FCMInitializer [main] Firebase application has been initialized
+2024-06-25 21:41:33,909 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-25 21:41:34,749 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@128fe3ab, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73502c47, org.springframework.security.web.context.SecurityContextHolderFilter@7c7478ac, org.springframework.security.web.header.HeaderWriterFilter@8c940e2, org.springframework.web.filter.CorsFilter@724d4e75, org.springframework.security.web.authentication.logout.LogoutFilter@4096a622, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@5b2ac349, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@41a4135e, com.example.xx2.security.jwt.JwtAuthTokenFilter@244c0fbe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bbf282d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4b5dd040, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@750e313c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13473685, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61a809ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1871068d, org.springframework.security.web.session.SessionManagementFilter@a263df9, org.springframework.security.web.access.ExceptionTranslationFilter@673d73da, org.springframework.security.web.access.intercept.AuthorizationFilter@6ca5720a]
+2024-06-25 21:41:35,422 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-25 21:41:35,467 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-25 21:41:35,502 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 14.176 seconds (process running for 15.946)
+2024-06-25 21:42:03,093 INFO c.e.x.s.FCMService [scheduling-1] Sent message to token. Device token: e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K, projects/binarfud-d5cbb/messages/88320694-4b7c-4dd1-822f-2dc7e203fb64 msg {
+  "notification": {
+    "title": "Promo Produk dari Toko 2",
+    "body": "Cek promosi terbaru kami: Es Cincau, Nasi Lemak, Jus Jeruk"
+  },
+  "androidConfig": {
+    "collapseKey": "promotion",
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {
+      "tag": "promotion"
+    }
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {
+        "category": "promotion",
+        "thread-id": "promotion"
+      }
+    }
+  },
+  "token": "e7XBUS-JL0XSvQkE2kEKLT:APA91bG1CAf2NI-D00UZ1Dst7mAafY8BwTH4cDNRE3SbM26KAxm3jx6ukp3U6OWEfZpKEZ7heOiqHkHbVyDSHtRY-8OAozSYjbn1C2coj9n_EmhO1I4xEh5bzVoco1oUPpu9nVzT226K"
+}
+2024-06-25 21:42:22,463 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-25 21:42:22,466 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-25 21:42:22,474 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
