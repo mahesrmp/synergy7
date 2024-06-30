@@ -27,3 +27,6 @@
 2024-06-11 00:08:14,631 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-06-11 00:08:14,632 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
 2024-06-11 00:08:14,639 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 6 ms
+2024-06-11 00:28:26,209 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 00:28:26,341 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-11 00:28:26,396 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
